@@ -1,7 +1,8 @@
 # Git Commit Instructions
 
 ## Language Requirement
-**ALL commit messages MUST be written in Japanese (日本語).**
+Commit message subject/body must be written in Japanese, and type must be written in English.
+(Type must always be in English, subject/body must always be in Japanese.)
 
 ## Commit Message Format
 
