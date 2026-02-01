@@ -42,7 +42,7 @@ Guidelines for developing and modifying Spring Boot applications in this project
 ## Build and Dependencies
 
 ### Gradle
-- Keep dependencies up to date
+- Keep dependencies up-to-date
 - Use version variables in gradle.properties
 - Group related dependencies
 - Document why specific versions are locked

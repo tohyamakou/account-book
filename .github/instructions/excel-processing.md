@@ -102,7 +102,7 @@ spring:
 - Return error messages in Japanese for users
 - Include row number and column name in validation errors
 - Provide actionable suggestions for fixing errors
-- Format: "[Row number][Column name] field has invalid format. Please use [expected format]."
+- Format: 「[行番号][列名] の形式が不正です。[期待される形式] を使用してください。」
 
 ## Common Issues and Solutions
 
