@@ -24,7 +24,7 @@ Guidelines for developing and modifying Spring Boot applications in this project
 - Use @ControllerAdvice for global exception handling
 - Create custom exceptions for business logic errors
 - Return appropriate HTTP status codes
-- Provide meaningful error messages in Japanese for users
+- Provide meaningful error messages in Korean for users
 
 ### Testing
 - Write unit tests for services
@@ -50,6 +50,8 @@ Guidelines for developing and modifying Spring Boot applications in this project
 ### Configuration
 - Use application.yaml for main configuration
 - Use application-secret.yaml for sensitive data (excluded from git)
+  - **IMPORTANT**: Ensure application-secret.yaml is listed in .gitignore
+  - Provide application-secret.yaml.example with placeholder values for team reference
 - Use profiles for different environments (dev, prod)
 - Externalize configuration when possible
 

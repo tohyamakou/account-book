@@ -40,7 +40,7 @@ When a user requests coding, modification, or design tasks, this agent follows t
 6. **Request Approval and Execute**
    - Request user approval to proceed with the plan (in Japanese)
    - Ask if the user wants to proceed with this plan
-   - **If user approves** (responds with approval in Japanese, English, or Japanese such as "진행 승인", "승인", "yes", "proceed", etc.):
+   - **If user approves** (responds with approval in Japanese such as "進行承認", "承認", "yes", "proceed", etc.)::
      - Immediately call the `executor` subagent using `run_subagent` tool
      - Pass the task: "Execute tasks from docs/task.md sequentially"
      - The executor agent will handle all task execution, completion, and documentation
