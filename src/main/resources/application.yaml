@@ -1,3 +1,15 @@
 spring:
   application:
     name: account-book
+  config:
+    import: application-secret.yaml
+  servlet:
+    multipart:
+      max-file-size: 10MB
+      max-request-size: 10MB
+      location: C:/Temp
+
+logging:
+  level:
+    com.tohyama.accountbook.service.ExcelParseService: INFO
+    com.tohyama.accountbook.report.ReportController: INFO
